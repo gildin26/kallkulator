@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.template{
+    font-size: larger;
+    font-weight: bold;
+}
+.box{
+    font-size: larger;
+    background-color: rgba(198, 197, 203, 0.985);
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(14,14,14);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+}
+.button{
+    color:rgb(246, 245, 250);
+    font-size: larger;
+    background-color: rgb(65, 232, 76);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.input{
+    width: 200px;
+    margin-left: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+html {
+    background-image: url(foto_shkola_Baumana.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
